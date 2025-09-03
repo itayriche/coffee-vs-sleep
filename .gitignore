@@ -1,0 +1,17 @@
+﻿# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (don’t commit raw data)
+data/*
+!data/.gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# OS/editor
+.DS_Store
+.vscode/
